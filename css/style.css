@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*-----------navbar start---------*/
+.navbar-inner {
+    background-color:transparent;
+}
+li{
+    padding:5px 8px;
+   font-family: 'Lobster', cursive;
+    font-size: 20px;
+}
+li a:hover {
+    
+  background-color:#ffc107;
+    padding: 5px;
+     outline: none;
+}
+.navbar-brand{
+     font-family: 'Lobster', cursive;
+    font-size: 50px;
+    color: white;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+.s{
+    align-content: center;
+}
+
+h1{
+     font-family: 'Lobster', cursive;
+    padding: 20px;
+}
+/*-----------navbar end---------*/
+/*-----loogin form start-----*/
+.login{
+ color: white; 
+   padding: 20px; 
+
+}
+.form-group input{
+     border-radius: 25px;
+    border: none;
+  
+     padding: 10px; 
+   
+}
+
+.form-group button{
+    border-radius: 25px;
+    border: none;
+    background: #ffeb3b;
+    
+    color:black;
+     font-family: 'Lobster', cursive;
+
+}
+.modal-title{
+    color: white;
+}
+
+/* login form end*/
+/*-----------search start---------*/
+.header{
+    height: 100vh;
+    
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+
+h2{
+    color:white;
+    color:white;
+    margin-bottom: 70px;
+    font-size: 45px;
+    letter-spacing: 2px;
+    text-align: center;
+     font-family: 'Lobster', cursive;
+}
+.search-filed{
+    height: 50px;
+    padding: 10px;
+    border:none;
+    border-radius: 25px;
+    outline:none;
+    margin-bottom: 2px;
+}
+.Event{
+    width: 400px
+}
+.location{
+    width: 200px;
+}
+.search-btn{
+height: 50px;
+    width: 150px;
+    background: #ffeb3b;
+    border: none;
+    color: #000;
+    border-radius: 25px;
+    outline: none;
+    font-family: 'Lobster', cursive;
+
+}
+.search-btn:hover{
+    background: #ffc107;
+ 
+}
+
+.bg{
+    background-color:rgba(220, 72, 40,0.7);
+    padding: 30px;
+}
+/*-----------search end---------*/
+/*----------jumbotron start--------*/
+.img-top{
+    background-size:1347px 50vh;
+}
+.jumbotron{
+    background-image: url(image/taj_palace_delhi.jpg);
+    
+background-repeat: no-repeat;
+   background-size:cover;
+  /*----------jumbotron start--------*/
+    
+    /*----------footer start--------*/
+    
+}.page-footer{
+    width: 100%;
+    background: black;
+    display: block;
+    padding: 20px;
+}
+.inner-footer{
+    width: 95%;
+        margin:auto;
+    padding: 30px 10px;
+    display: flex;}
+.footer item{
+    width: 25%;
+    padding: 10px 20px;
+    
+}
+.a{
+    padding: 13px 0;
+    font-size: 20px;
+    margin: 10px 0;
+    
+    
+}
+.headerrrrr{
+    height: 60vh;
+    
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    color: white;
+}
+.about{
+    font-size: 60px;
+     font-family: 'Lobster', cursive;
+    color: white;
+}
+.aboutimage{
+    width: 100%;
+    height: 250px;
+}
+
+.h{
+   font-family: 'Rokkitt', serif;
+    font-weight: 200;
+    font-size: 20px; 
+}
+/*----------footer end--------*/
+label{
+    color: white;
+    font-weight: 800;
+}
+.sidebar{
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    background-color: rgb(252, 44, 0);
+    
+}
+.sidebar h3{font-size:22px;
+    color: white;
+    text-align: center;
+    line-height: 60px;
+     background-color: rgb(171, 35, 5);
+
+    
+}
+
+.sidebar ul a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color: white;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-top: 1px solid grey;
+    
+}
+.sidebar ul li:hover a{
+    padding-left:50px;
+}
+.n{
+    font-family: 'Karla', ;
+    font-size: 10px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

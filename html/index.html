@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index.html</title>
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Zhi+Mang+Xing&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="js/jquery-3.4.1.js"></script>
+       <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+         <script src="https://kit.fontawesome.com/yourcode.js"></script>
+           <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script> 
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
+   <script src="js/jquery.validate.min.js"></script> 
+   <script src="js/model.js"></script>
+       <script src="js/javascript.js"></script>
+
+
+</head>
+<body>
+
+
+<!-------------------------------------navbar start------------------------------------------>
+ 
+  <nav class="navbar navbar-expand-lg navbar-dark  fixed-top " style="background-color:rgba(220, 72, 40,0.7)">
+  <div class="container">
+  <a class="navbar-brand" href="#"><i class='fab fa-centos fa-lg'></i> Heritage Venue</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#"><i class="fas fa-home"></i>&nbsp;Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="about%20us.html"><i class="far fa-question-circle"></i>&nbsp;Aboutus</a>
+      </li>
+    
+       <li class="nav-item dropdown active">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Venue
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="list.html">Banquet Hall</a>
+          <a class="dropdown-item" href="list.html">Restarurant</a>
+          <a class="dropdown-item" href="list.html">Bar and Pub</a>
+           <a class="dropdown-item" href="list.html">Resort</a>
+            <a class="dropdown-item" href="list.html">Farmhouse</a>
+             <a class="dropdown-item" href="list.html">Rooftop</a>
+              <a class="dropdown-item" href="list.html">Conference Room</a>
+        </div>
+        </li>
+      <li class="nav-item dropdown active">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Events
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Kids Party</a>
+          <a class="dropdown-item" href="#">Wedding</a>
+          <a class="dropdown-item" href="#">Engagement</a>
+          <a class="dropdown-item" href="#">Recption</a>
+          <a class="dropdown-item" href="#">Birthday Party</a>
+          <a class="dropdown-item" href="#">Meeting</a>
+          <a class="dropdown-item" href="#">Bachler Party</a>
+          <a class="dropdown-item" href="#">Aniversary</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown active">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Vendors
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Photographer</a>
+          <a class="dropdown-item" href="#">Makeup/artist</a>
+          <a class="dropdown-item" href="#">Mehendi/artist</a>
+           <a class="dropdown-item" href="#">Decoraters</a>
+            <a class="dropdown-item" href="#">Carters</a>
+        </div>
+        
+      </li>
+      <li class="nav-item active">
+       
+        <a class="nav-link" href="#myModal" data-toggle="modal" ><i class="fas fa-user"></i>&nbsp;Login</a>
+        </li>
+ </ul>
+     </div>
+      
+   </div> 
+</nav>
+<!--------------------------------- nav bar end------------------------------------------>
+
+ <!--------------------------Start of first model---------------------------------------->
+ 
+  <div class="container" id="modal11">
+  <div class="modal fade" id="myModal" >
+    <div class="modal-dialog" >
+      <div class="modal-content" style=" background-color: rgba(220, 72, 40,0.5); ">
+      
+        <!-- Modal Header -->
+       <!-- <div class="modal-header">
+         <h4 style="text-align: center;color: white;">LOGIN</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>-->
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+        <div class="container-fluid bg">
+        <div class="row">
+           <div class="col-md-12 col-sm-4 col-xm-12"></div>
+            <div class="col-md-12 col-sm-4 col-xm-12">
+               <form action="#" id="login" >
+              <h4 style="text-align: center;color: white;">LOGIN<hr></h4>
+            <div class="form-group ">
+                <label><i class="fas fa-user-friends"></i>&nbsp;User name:</label>
+                <input type="text" name="username1" id="username1" class="form-control" >
+                <span id="usernameid" class="text-warning font-weight-bolder"></span>
+            </div>
+            
+             
+             <div class="form-group">
+                <label><i class="fas fa-key"></i>&nbsp;Password:</label>
+                <input type="password" name="password1" id="password1" class="form-control" >
+                <span id="passwordid" class="text-warning font-weight-bolder"></span><br>
+           
+            
+            <button  type="submit" class="  btn-block btn btn-outline-warning" >login</button>
+                    </div>
+                    <div class="form-group">
+                       <label>Don't have account?&nbsp;&nbsp;<a href="#mymodel" data-toggle="modal" data-dismiss="modal"id="signup" >sign up here</a></label>
+                      
+                    </div>
+                           
+                </form>
+            </div>
+           <div class="col-md-12 col-sm-4 col-xm-12"></div>
+           </div>
+    </div>
+
+        </div>
+        </div>
+    </div>
+  </div>
+  
+</div>
+<!-------------------------------End of first model------------------------------------------>
+
+
+
+<!-------------------------------- second model start---------------------------------------->
+ <div class="container" id="modal22">
+  <div class="modal fade  " id="mymodel" >
+    <div class="modal-dialog" >
+      <div class="modal-content" style=" background-color: rgba(220, 72, 40,0.5); ">
+      
+        <!-- Modal Header -->
+       <!-- <div class="modal-header">
+          <h4 class="modal-title"></h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>-->
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+        <div class="container-fluid bg">
+        <div class="row">
+           <div class="col-md-12 col-sm-4 col-xm-12"></div>
+            <div class="col-md-12 col-sm-4 col-xm-12">
+               <form action="#" id="register">
+               <h4 style="text-align: center;color: white;">SIGN UP<hr></h4>
+            <div class="form-group" >
+                <label><i class="fas fa-user-friends"></i>&nbsp;User name:</label>
+                <input type="text" name="username" id="username" class="form-control" >
+                <span id="usernameid" class="text-warning font-weight-bolder"></span>
+            </div>
+            
+             <div class="form-group">
+                <label><i class="fas fa-envelope"></i>&nbsp;Email:</label>
+                <input type="email" name="email" id="email" class="form-control" >
+                <span id="emailid" class="text-warning font-weight-bolder"></span>
+            </div>
+            
+             <div class="form-group">
+                <label><i class="fas fa-key"></i>&nbsp;Password:</label>
+                <input type="password" name="password" id="password" class="form-control" >
+                <span id="passwordid" class="text-warning font-weight-bolder"></span>
+            </div>
+            
+             <div class="form-group">
+                <label><i class="fas fa-home"></i>&nbsp;Address:</label>
+                <textarea name="address" id="address" class="form-control"></textarea><span id="addressid" class="text-warning font-weight-bolder"></span>
+                 </div>
+                 
+             <div class="form-group">
+                <label><i class="fas fa-phone-alt"></i>&nbsp;Phone No:</label>
+                <input type="text" name="phone" id="phone" class="form-control" maxlength="10" >
+                <span id="phoneid" class="text-warning font-weight-bolder"></span><br>
+                
+            
+    
+        
+                    <button id="hide" type="submit" class="  btn-block btn btn-outline-warning" >login</button></div>
+
+                      
+                    
+                           
+                </form>
+            </div>
+           
+           </div>
+    </div>
+
+        </div>
+        </div>
+    </div>
+  </div>
+  
+</div>
+
+    
+
+<!------------------------------second model end-------------------------------------------------->
+
+
+
+<!-- --------------------------------start of search bar------------------------------------------>
+
+
+
+
+<div>
+  
+  <div class="card img-fluid" style="width:500px%">
+    <img class="card-img-top" src="image/5.jpg" alt="Card image" style="background-size: cover;height:100vh;width: 100%;">
+    <div class="card-img-overlay">
+      <h4 class="card-title"></h4>
+      <p class="card-text">
+       <div class="header">
+        <form>
+         <h2>Find Your Best Place</h2>
+         <div class="form-group  bg">
+             <input type="text" class="search-filed Event" placeholder="Event">
+              <input type="text" class="search-filed Event" placeholder="Location">
+              <button class="search-btn " type="button"><i class="fas fa-search"></i>&nbsp;&nbsp;Search</button>
+             
+         </div> 
+     </form>
+ 
+    
+    </div>
+  </div>
+</div>
+ <!---------------------------search bar end------------------------------------------->
+     
+   <!-----------------------------------cards start------------------------------------->
+   
+   <div class="container">
+    <h1 align="center">Why Book With Heritage Venue </h1>
+    <div class="card-group">
+    <div class="card" style="width: 18rem; background-color: azure;">
+  <div class="card-body">
+   
+    <h5 class="card-title"><i class="fas fa-clipboard-list fa-3x align-center"></i></h5>
+    <h6 class="card-subtitle mb-2 text-muted">Shortlist</h6>
+    <p class="card-text">Shortlist from list <br>of recommended venues</p>
+   <!-- <a href="#" class="card-link">Card link</a>
+    <a href="#" class="card-link">Another link</a>-->
+  </div>
+</div>
+    <div class="card" style="width: 18rem; background-color: azure;">
+  <div class="card-body">
+   <h5 class="card-title"><i class="fas fa-map-marker-alt fa-3x align-items-center"></i></h5>
+    <h6 class="card-subtitle mb-2 text-muted">Venue Visit</h6>
+    <p class="card-text">Visit the venue with <br>our area experts</p>
+  
+  </div>
+</div>
+    <div class="card" style="width: 18rem; background-color: azure;">
+  <div class="card-body">
+   <h5 class="card-title"><i class="fas fa-address-card fa-3x align-items-center"></i></h5>
+    <h6 class="card-subtitle mb-2 text-muted">Choose your vendors</h6>
+    <p class="card-text">Book other vendors for your<br>event all at one place</p>
+  
+  </div>
+</div>
+    <div class="card" style="width: 18rem; background-color: azure;">
+  <div class="card-body">
+   <h5 class="card-title"><i class="fab fa-slideshare fa-3x align-items-center"></i></h5>
+    <h6 class="card-subtitle mb-2 text-muted">Creative Ideas</h6>
+    <p class="card-text">Send free e-invites, get inspired <br>from real event pictures and ideas</p>
+  
+  </div>
+</div>
+    </div>
+    </div>
+    
+    <div class="container">
+   
+    <div class="card-group">
+    <div class="card" style="width: 18rem; background-color: azure;">
+  <div class="card-body">
+   
+    <h5 class="card-title"><i class="far fa-credit-card fa-3x align-center"></i></h5>
+    <h6 class="card-subtitle mb-2 text-muted">SecurePayment</h6>
+    <p class="card-text">Your all type of payment<br> are secure</p>
+   <!-- <a href="#" class="card-link">Card link</a>
+    <a href="#" class="card-link">Another link</a>-->
+  </div>
+</div>
+    <div class="card" style="width: 18rem; background-color: azure;">
+  <div class="card-body">
+   <h5 class="card-title"><i class="fas fa-hand-holding-usd fa-3x align-items-center"></i></h5>
+    <h6 class="card-subtitle mb-2 text-muted">Save </h6>
+    <p class="card-text">Time/Money</p>
+  
+  </div>
+</div>
+    <div class="card" style="width: 18rem; background-color: azure;">
+  <div class="card-body">
+   <h5 class="card-title"><i class="fas fa-address-card fa-3x align-items-center"></i></h5>
+    <h6 class="card-subtitle mb-2 text-muted">Choose your vendors</h6>
+    <p class="card-text">Book other vendors for your<br>event all at one place</p>
+  
+  </div>
+</div>
+    <div class="card" style="width: 18rem; background-color: azure;">
+  <div class="card-body">
+   <h5 class="card-title"><i class="fab fa-slideshare fa-3x align-items-center"></i></h5>
+    <h6 class="card-subtitle mb-2 text-muted">Creative Ideas</h6>
+    <p class="card-text">Send free e-invites, get inspired <br>from real event pictures and ideas</p>
+  
+  </div>
+</div>
+    </div>
+    </div>
+    
+    <!------------------------------cards end----------------------------------------------->
+    
+    <!---------------------------------------grid carousal----------------------------------->
+    
+    <h1 align="center">Featured Listing</h1>
+    <div class="jumbotron jumbotron-fluid" style="background-image: url(image/taj_palace_delhi.jpg)">
+  <div class="container my-4">
+
+   
+
+    <hr class="my-4">
+
+    <!--Carousel Wrapper-->
+    <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+
+      <!--Controls-->
+      <div class="col-12 text-right mb-4">
+        <a class="btn btn-outline-warning prev" href="#multi-item-example" data-slide="prev" ><i class="fa fa-chevron-left"></i></a>
+        <a class="btn btn-outline-warning next" href="#multi-item-example" data-slide="next"><i class="fa fa-chevron-right"></i></a>
+      </div>
+      <!--/.Controls-->
+
+      <!--Indicators-->
+      <ol class="carousel-indicators">
+        <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+        <li data-target="#multi-item-example" data-slide-to="1"></li>
+        <li data-target="#multi-item-example" data-slide-to="2"></li>
+      </ol>
+      <!--/.Indicators-->
+
+      <!--Slides-->
+      <div class="carousel-inner" role="listbox">
+
+        <!--First slide-->
+        <div class="carousel-item active">
+
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-2">
+                <img class="card-img-top" src="image/nivana.jpg"
+                  alt="Card image cap">
+                  <div class="carousel-caption mt-30px">
+                      <h3 style="font-size: 20px;"><a href="nirvanahotel.html"style="color: white">NIRVANA Hotel Banquets Club</a></h3>
+                      <p> Ludhiana, Punjab</p>
+                  </div>
+                
+              </div>
+            </div>
+
+            <div class="col-md-4 clearfix d-none d-md-block">
+              <div class="card mb-2">
+                <img class="card-img-top" src="image/krystal-resorts-krystal-resorts-6.jpg"
+                  alt="Card image cap">
+                   <div class="carousel-caption mt-30px">
+                      <h3 style="font-size: 20px;"><a href="#"style="color: white">Krystal Resorts</a></h3>
+                      <p> Ludhiana, Punjab</p>
+                  </div>
+                
+              </div>
+            </div>
+
+            <div class="col-md-4 clearfix d-none d-md-block">
+              <div class="card mb-2">
+                <img class="card-img-top" src="image/entrance.jpg"
+                  alt="Card image cap">
+                  <div class="carousel-caption mt-30px">
+                      <h3 style="font-size: 20px;"><a href="#"style="color: white">The BrewMaster </a></h3>
+                      <p> Jalandhar, Punjab</p>
+                  </div>
+                
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!--/.First slide-->
+
+        <!--Second slide-->
+        <div class="carousel-item">
+
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-2">
+                <img class="card-img-top" src="image/barbiqunation.jpg"
+                  alt="Card image cap">
+                  <div class="carousel-caption mt-30px">
+                      <h3 style="font-size: 20px;"><a href="#"style="color: white">Barbeque Nation </a></h3>
+                      <p> Jalandhar, Punjab</p>
+                  </div>
+                
+              </div>
+            </div>
+
+            <div class="col-md-4 clearfix d-none d-md-block">
+              <div class="card mb-2">
+                <img class="card-img-top" src="image/nivana.jpg"
+                  alt="Card image cap">
+                  <div class="carousel-caption mt-30px">
+                      <h3 style="font-size: 20px;"><a href="nirvanahotel.html"style="color: white">NIRVANA Hotel Banquets Club</a></h3>
+                      <p> Ludhiana, Punjab</p>
+                  </div>
+                
+              </div>
+            </div>
+
+            <div class="col-md-4 clearfix d-none d-md-block">
+              <div class="card mb-2">
+                <img class="card-img-top" src="image/unnamed.jpg"
+                  alt="Card image cap">
+                  <div class="carousel-caption mt-30px">
+                      <h3 style="font-size: 20px;"><a href="nirvanahotel.html"style="color: white">Amantran Ville</a></h3>
+                      <p> Ludhiana, Punjab</p>
+                  </div>
+                
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!--/.Second slide-->
+
+       
+
+      </div>
+      <!--/.Slides-->
+
+    </div>
+    <!--/.Carousel Wrapper-->
+
+
+  </div>
+
+    
+    
+  </div>  
+   
+   
+   
+   
+    <!--------------------------------- new grid------------------------------->
+    
+    <h1 align="center"> Book Conference Hall</h1>
+    
+  
+
+    <div class="container pt-3">
+
+    
+    <div class="row">
+
+    <!--Carousel Wrapper-->
+    <div id="multi-item-example2" class="carousel slide carousel-multi-item" data-ride="carousel">
+
+      <!--Controls-->
+      <div class="col-12 text-right mb-4">
+        <a class="btn btn-outline-warning prev" href="#multi-item-example2" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
+        <a class="btn btn-outline-warning next" href="#multi-item-example2" data-slide="next"><i class="fa fa-chevron-right"></i></a>
+      </div>
+      <!--/.Controls-->
+
+      <!--Indicators-->
+      <ol class="carousel-indicators">
+        <li data-target="#multi-item-example2" data-slide-to="0" class="active"></li>
+        <li data-target="#multi-item-example2" data-slide-to="1"></li>
+        <li data-target="#multi-item-example2" data-slide-to="2"></li>
+      </ol>
+      <!--/.Indicators-->
+
+      <!--Slides-->
+      <div class="container pt-0 mt-2  carousel-inner" >
+
+        <!--First slide-->
+        <div class="carousel-item active">
+
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-2">
+                <img class="card-img-top" src="image/galaxy.jpg"
+                  alt="Card image cap" style="width:100%;height: 50%">
+                   <h4 class="card-title">Raddison Jalandhar</h4>
+                <div class="card-body">
+                
+                
+                  
+                 <a class="btn btn-warning">View Details</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 clearfix d-none d-md-block">
+              <div class="card mb-2">
+                <img class="card-img-top" src="image/jade-ballroom-sahara-star-2.jpg"
+                     alt="Card image cap" style="width:100%;height: 50%">
+                     <h4 class="card-title">Park Plaza, Ludhiana</h4>
+                     <div class="card-body">
+                 
+                 <a class="btn btn-warning">View Details</a>
+                
+                  
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 clearfix d-none d-md-block">
+              <div class="card mb-2">
+                <img class="card-img-top" src="image/a1cb8964509bd0910d741389f1d790be.jpg"
+                  alt="Card image cap" style="width:100%;height: 50%">
+                   
+                  <h4 class="card-title">Neelgiri Hotel
+</h4>
+                  <div class="card-body">
+                  <a class="btn btn-warning">View Details</a>
+                  
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!--/.First slide-->
+
+        <!--Second slide-->
+        <div class="carousel-item">
+
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-2">
+                <img class="card-img-top" src="image/galaxy.jpg"
+                  alt="Card image cap"  style="width:100%;height: 50%">
+                   <h4 class="card-title">Radisson,Jalandhar</h4>
+                <div class="card-body">
+                 <a class="btn btn-warning">View Details</a>
+                  
+                  
+                  
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 clearfix d-none d-md-block">
+              <div class="card mb-2">
+                <img class="card-img-top" src="image/jade-ballroom-sahara-star-2.jpg"
+                  alt="Card image cap"  style="width:100%;height: 50%">
+                   <h4 class="card-title">Neelgiri Hotel</h4>
+                 
+                 
+                <div class="card-body">
+               <a class="btn btn-warning">View Details</a>
+                  
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 clearfix d-none d-md-block">
+              <div class="card mb-2">
+                <img class="card-img-top" src="image/a1cb8964509bd0910d741389f1d790be.jpg"
+                  alt="Card image cap"  style="width:100%;height: 50%"> 
+         <h4 class="card-title">Park Plaza, Ludhiana
+</h4>
+                <div class="card-body">
+                    <a class="btn btn-warning">View Details</a> 
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!--/.Second slide-->
+
+        
+      </div>
+      <!--/.Slides-->
+
+    </div>
+    <!--/.Carousel Wrapper-->
+        </div>
+
+  </div>
+    
+<!----------------------------------------birthday party slider----------------------------->
+
+
+
+<h1 align=" center"> Book Birthday Party Hall</h1>
+   
+    <div class="container pt-3">
+
+    
+    <div class="row">
+
+    <!--Carousel Wrapper-->
+    <div id="multi-item-example3" class="carousel slide carousel-multi-item" data-ride="carousel">
+
+      <!--Controls-->
+      <div class="col-12 text-right mb-4">
+        <a class="btn btn-outline-warning prev" href="#multi-item-example3" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
+        <a class="btn btn-outline-warning prev" href="#multi-item-example3" data-slide="next"><i class="fa fa-chevron-right"></i></a>
+      </div>
+      <!--/.Controls-->
+
+      <!--Indicators-->
+      <ol class="carousel-indicators">
+        <li data-target="#multi-item-example3" data-slide-to="0" class="active"></li>
+        <li data-target="#multi-item-example3" data-slide-to="1"></li>
+        <li data-target="#multi-item-example3" data-slide-to="2"></li>
+      </ol>
+      <!--/.Indicators-->
+
+      <!--Slides-->
+      <div class="container pt-0 mt-2  carousel-inner" >
+
+        <!--First slide-->
+        <div class="carousel-item active">
+
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-2">
+                <img class="card-img-top" src="image/radisson%20birth.jpg"
+                  alt="Card image cap" style="width:100%;height: 50%">
+                <div class="card-body">
+                
+                  <h4 class="card-title">Radisson Hotel</h4>
+                  
+                  <a class="btn btn-warning">View details</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 clearfix d-none d-md-block">
+              <div class="card mb-2">
+                <img class="card-img-top" src="image/mahraja%20hotel.jpg"
+                     alt="Card image cap" style="width:100%;height: 50%">
+                      
+                  <!-- <h4 class="card-title">Card title</h4>-->
+                 
+                <div class="card-body">
+                <h4 class="card-title">Neelgiri Hotel</h4>
+                  
+                  <a class="btn btn-warning">View details</a>
+                 
+                  
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 clearfix d-none d-md-block">
+              <div class="card mb-2">
+                <img class="card-img-top" src="image/b.jpg"
+                  alt="Card image cap" style="width:100%;height: 50%">
+                  
+                 <!-- <h4 class="card-title">Card title</h4>-->
+                  <div class="card-body">
+                  
+                  <h4 class="card-title">Maharaja Hotel</h4>
+                  
+                  <a class="btn btn-warning">View details</a>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!--/.First slide-->
+
+        <!--Second slide-->
+        <div class="carousel-item">
+
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-2">
+                <img class="card-img-top" src="image/radisson%20birth.jpg"
+                  alt="Card image cap"  style="width:100%;height: 50%">
+                   <!-- <h4 class="card-title">Card title</h4>-->
+                <div class="card-body">
+                <h4 class="card-title">Radisson,Jalandhar</h4>
+                  
+                  <a class="btn btn-warning">View details</a>
+                  
+                  
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 clearfix d-none d-md-block">
+              <div class="card mb-2">
+                <img class="card-img-top" src="image/mahraja%20hotel.jpg"
+                  alt="Card image cap"  style="width:100%;height: 50%">
+                   
+                <div class="card-body">
+                <!--  <h4 class="card-title">Card title</h4>-->
+                 <h4 class="card-title">Maharaja,Jalandhar</h4>
+                  
+                  <a class="btn btn-warning">View details</a>
+                  
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 clearfix d-none d-md-block">
+              <div class="card mb-2">
+                <img class="card-img-top" src="image/b.jpg"
+                  alt="Card image cap"  style="width:100%;height: 50%"> 
+           
+                <div class="card-body">
+                 <!-- <h4 class="card-title">Card title</h4>-->
+<h4 class="card-title">Palak Plaza,Jalandhar</h4>
+                  
+                  <a class="btn btn-warning">View details</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!--Second slide-->
+
+        
+      </div>
+      <!--/.Slides-->
+
+    </div>
+    <!--/.Carousel Wrapper-->
+        </div>
+
+  </div>
+    </div>
+    
+   
+   <!--------------------------- birthday party slider end----------------------------->
+    
+    
+   <!-- -------------------------------Footer start------------------------------------>
+<footer class="page-footer font-small pt-4" style="padding: 20px">
+
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-4 col-lg-3 mr-auto my-md-4 my-0 mt-4 mb-1">
+
+        <!-- Content -->
+        <h5 class="font-weight-bold text-uppercase mb-4" style="color: white">Heritage Venue</h5>
+        <p style="color: white">Heritage Venue.com is an online venue booking portal with the widest range of venues available in Jalandhar, Ludhiana, Patiala,Amritsar, . At Heritage Venue, we connect our customers with the best venues in their city based on their unique requirements so that they can get the ideal deal for their event. </p>
+       
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-2 col-lg-2 mx-auto my-md-4 my-0 mt-4 mb-1">
+
+        <!-- Links -->
+        <h5 class="font-weight-bold text-uppercase mb-4" style="color: white">Usefull links</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <p>
+              <a href="index.html" style="color: white">Home</a>
+            </p>
+          </li>
+          <li>
+            <p>
+              <a href="about%20us.html" style="color: white">Aboutus</a>
+            </p>
+          </li>
+          <li>
+            <p>
+              <a href="list.html"style="color: white">Venue</a>
+            </p>
+          </li>
+          <li>
+            <p>
+              <a href="list.html" style="color: white">Events</a>
+            </p>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-4 col-lg-3 mx-auto my-md-4 my-0 mt-4 mb-1">
+
+        <!-- Contact details -->
+        <h5 class="font-weight-bold text-uppercase mb-4"style="color: white">Address</h5>
+
+        <ul class="list-unstyled">
+          
+          <li>
+            <p style="color: white">
+              <i class="fas fa-envelope mr-3"></i>yadavj9991@gmail.com</p>
+          </li>
+          <li>
+            <p style="color: white">
+              <i class="fas fa-phone mr-3"></i> +91 7087241900</p>
+          </li>
+        
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-2 col-lg-2 text-center mx-auto my-4">
+
+        <!-- Social buttons -->
+        <h5 class="font-weight-bold text-uppercase mb-4" style="color: white">Follow Us</h5>
+
+        <a href="" style="color: white">
+          <i class="fab fa-facebook-f" ></i>
+        </a>
+        <!-- Twitter -->
+        <a href="#" style="color: white">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <!-- Google +-->
+        <a href="" style="color: white">
+          <i class="fab fa-google-plus-g"></i>
+        </a>
+        <!-- Dribbble -->
+        <a href="" style="color:white;">
+          <i class="fab fa-dribbble"></i>
+        </a>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>  
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+    
+    
+    <!-------------------------------footer end------------------------------->
+    
+</body>
+</html>
